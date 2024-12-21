@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jwt"
+version = "0.1.0"
+description = "jwt"
+authors = ["ukastsiukevich <grun_gespenst@tut.by>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+PyJWT = "^2.10.1"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
